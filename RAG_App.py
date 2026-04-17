@@ -44,7 +44,7 @@ with st.sidebar:
         if uploaded_files:
             with st.spinner("Processing documents..."):
                 docs = []
-              for file in uploaded_files:
+                for file in uploaded_files:
                     with open(file.name, "wb") as f:
                         f.write(file.getbuffer())
 
