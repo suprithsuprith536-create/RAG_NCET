@@ -9,4 +9,4 @@ langchain-huggingface
 faiss-cpu
 pypdf
 sentence-transformers
-torchvisi
+torchvision
